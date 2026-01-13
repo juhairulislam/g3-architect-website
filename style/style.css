@@ -144,7 +144,9 @@ main>section{
 @media screen and (max-width:576px) {
     .navbar, 
     .nav-links, 
-    .team{
+    .team,
+    .features
+    {
         flex-direction: column;
     }
 
@@ -169,6 +171,11 @@ main>section{
 
     .our-features{
         margin-left: 15px;
+    }
+
+    #experience-badge {
+        margin-top: 50px;
+        margin-left: 100px;
     }
 
   
@@ -198,6 +205,54 @@ main>section{
 
 #quick-list{
     font-weight: 500;
+}
+
+/* features related styles */
+
+#feature-section-title{
+
+    border-left: 5px solid #FF900E;
+    padding-left: 20px;
+
+
+}
+
+.features{
+    gap: 100px;
+}
+
+.feature-card .feature-title{
+    font-weight: 600;
+    font-size: 1.22rem;
+    margin-top: 0px;
+    margin-bottom: 0px;
+   
+}
+
+#experience-badge{
+    padding: 35px 30px;
+    font-size:1.5rem ;
+    font-weight: 500;
+    margin-left: -90px ;
+    margin-top: -90px;
+
+}
+
+#experience-year{
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+.feature-card{
+     padding: 30px;
+    box-shadow: 0 4px 30px 0 rgba(0, 0, 0, 0.06);
+    margin-bottom: 20px;
+    border-radius: 8px;
+}
+
+.sundori img{
+    width: 100%;
+    height: 100%;
 }
 
 /* some facts related styles */
